@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<componentData>
+  <component>
+    <componentBaseName>softwaresupportpkgs/nnet/googlenet</componentBaseName>
+    <componentFileName>softwaresupportpkgs/nnet/googlenet_common_1645103813.zip</componentFileName>
+    <componentName>softwaresupportpkgs/nnet/googlenet_common</componentName>
+    <componentVersion>1645103813</componentVersion>
+    <demo>0</demo>
+    <doc>0</doc>
+    <doc_build>0</doc_build>
+    <doc_search>0</doc_search>
+    <instrset>0</instrset>
+    <locale />
+    <locationId>1</locationId>
+    <numFiles>8</numFiles>
+    <platformList>
+      <platform>glnxa64</platform>
+      <platform>maci64</platform>
+      <platform>maca64</platform>
+      <platform>win64</platform>
+    </platformList>
+    <releaseFamily>R2022a</releaseFamily>
+    <size>26625236</size>
+    <type />
+    <uncompressedBytes>26621225</uncompressedBytes>
+  </component>
+</componentData>
+

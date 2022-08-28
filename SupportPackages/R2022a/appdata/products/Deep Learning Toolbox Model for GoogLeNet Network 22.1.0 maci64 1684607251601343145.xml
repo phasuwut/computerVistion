@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productAdditionalComps>
+  <dependsOn />
+  <isControllingProduct>false</isControllingProduct>
+  <licenseAgreementType>ASLA</licenseAgreementType>
+  <platform>maci64</platform>
+  <productBaseCode>GOOGLENET</productBaseCode>
+  <productName>Deep Learning Toolbox Model for GoogLeNet Network</productName>
+  <productNumber>2170</productNumber>
+  <productType>softwareSupportPkg</productType>
+  <productVersion>22.1.0</productVersion>
+  <releaseDescription>R2022a</releaseDescription>
+  <releaseFamily>R2022a</releaseFamily>
+</productAdditionalComps>
+

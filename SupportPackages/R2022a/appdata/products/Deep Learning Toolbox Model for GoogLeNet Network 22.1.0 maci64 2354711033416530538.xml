@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productData>
+  <altDependencies>
+    <product>
+      <productBaseCode>NN</productBaseCode>
+      <productName>Deep Learning Toolbox</productName>
+      <productNumber>12</productNumber>
+      <productVersion>14.4</productVersion>
+      <releaseDescription>R2022a</releaseDescription>
+      <releaseFamily>R2022a</releaseFamily>
+    </product>
+  </altDependencies>
+  <dependsOn>
+    <component>
+      <name>hardwaresupportpkgs/licenses/asla_license_common</name>
+      <instrset>0</instrset>
+      <locale />
+      <platformList>
+        <platform>glnxa64</platform>
+        <platform>maci64</platform>
+        <platform>maca64</platform>
+        <platform>win64</platform>
+      </platformList>
+      <version>1643069424</version>
+    </component>
+    <component>
+      <name>softwaresupportpkgs/nnet/googlenet_common</name>
+      <instrset>0</instrset>
+      <locale />
+      <platformList>
+        <platform>glnxa64</platform>
+        <platform>maci64</platform>
+        <platform>maca64</platform>
+        <platform>win64</platform>
+      </platformList>
+      <version>1645103813</version>
+    </component>
+  </dependsOn>
+  <installerUsage>
+    <usage>professional</usage>
+  </installerUsage>
+  <isControllingProduct>false</isControllingProduct>
+  <licenseAgreementType>ASLA</licenseAgreementType>
+  <platformList>
+    <platform>glnxa64</platform>
+    <platform>maci64</platform>
+    <platform>win64</platform>
+  </platformList>
+  <productBaseCode>GOOGLENET</productBaseCode>
+  <productName>Deep Learning Toolbox Model for GoogLeNet Network</productName>
+  <productNumber>2170</productNumber>
+  <productType>softwareSupportPkg</productType>
+  <productVersion>22.1.0</productVersion>
+  <releaseDescription>R2022a</releaseDescription>
+  <releaseFamily>R2022a</releaseFamily>
+  <requiredProducts />
+</productData>
+
