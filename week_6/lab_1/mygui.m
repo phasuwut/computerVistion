@@ -22,7 +22,7 @@ function varargout = mygui(varargin)
 
 % Edit the above text to modify the response to help mygui
 
-% Last Modified by GUIDE v2.5 28-Aug-2022 14:17:27
+% Last Modified by GUIDE v2.5 28-Aug-2022 15:01:22
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -52,6 +52,19 @@ function mygui_OpeningFcn(hObject, eventdata, handles, varargin)
 % handles    structure with handles and user data (see GUIDATA)
 % varargin   command line arguments to mygui (see VARARGIN)
 
+% Create the data to polt 
+
+handles.peaks=peaks(35);
+handles.membrane=membrane;
+[x,y ]=meshgrid(-8:.5:8);
+r=sqrt(x.^2+y.^2)+eps;
+sinc=sin(r)./r;
+handles.sinc=sinc;
+%Set the current data valur.
+handles.current_data=handles.peaks;
+surf(handles.current_data)
+
+
 % Choose default command line output for mygui
 handles.output = hObject;
 
@@ -78,27 +91,43 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
+surf(handles.current_data);
 
 % --- Executes on button press in pushbutton2.
 function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
+mesh(handles.current_data);
 
 % --- Executes on button press in pushbutton3.
 function pushbutton3_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
+contour(handles.current_data);
 
 % --- Executes on selection change in popupmenu1.
 function popupmenu1_Callback(hObject, eventdata, handles)
 % hObject    handle to popupmenu1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+% Determine the selected data set.
+str = get (hObject,'String');
+val = get (hObject, 'Value');
+% Set current data to the selected data set.
+switch str{val}
+case 'peaks' % User selects peaks.
+handles.current_data = handles.peaks;
+case 'membrane' % User selects membrane
+handles.current_data = handles.membrane;
+case 'sinc' % User selects sinc.
+handles.current_data = handles.sinc;
+end
+% Save the handles structure.
+guidata(hObject,handles)
+
 
 % Hints: contents = cellstr(get(hObject,'String')) returns popupmenu1 contents as cell array
 %        contents{get(hObject,'Value')} returns selected item from popupmenu1
