@@ -1,0 +1,3 @@
+https://www.youtube.com/channel/UCHsHcvXLRx-98HEkBLeQBHQ
+https://www.mathworks.com/matlabcentral/fileexchange/75451-live-emotion-detection-using-cnn-a-deep-learning-model
+https://paperswithcode.com/dataset/ck
