@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><data xmlns="https://www.mathworks.com/help/ref/data" count="5"><cat init="C"><ref target="ug/webcam.closepreview.html" name="closePreview" init="C"><purpose>Close webcam preview window</purpose></ref></cat>
-<cat init="P"><ref target="ug/webcam.preview.html" name="preview" init="P"><purpose>Preview live video data from webcam</purpose></ref></cat>
-<cat init="S"><ref target="ug/webcam.snapshot.html" name="snapshot" init="S"><purpose>Acquire single image frame from a webcam</purpose></ref></cat>
-<cat init="W"><ref target="ug/webcam.html" name="webcam" init="W"><purpose>Connection to a webcam</purpose></ref><ref target="ug/webcamlist.html" name="webcamlist" init="W"><purpose>List of webcams connected to your system</purpose></ref></cat>
-</data>
