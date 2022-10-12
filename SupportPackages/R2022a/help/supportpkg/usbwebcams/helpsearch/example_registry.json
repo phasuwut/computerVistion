@@ -1,0 +1,113 @@
+
+[
+  {
+  "id":"usbwebcams.CloseWebcamPreviewExample",
+  "title":"Close Webcam Preview",
+  "path":"ug/webcam.closepreview.html",
+  "supportingFiles":
+    [
+      "CloseWebcamPreviewExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.CreateAWebcamObjectUsingNoArgumentsExample",
+  "title":"Create a Webcam Object Using No Arguments",
+  "path":"ug/webcam.html",
+  "supportingFiles":
+    [
+      "CreateAWebcamObjectUsingNoArgumentsExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.CreateAWebcamObjectUsingDeviceNumberAsAnIndexExample",
+  "title":"Create a Webcam Object Using Device Number as an Index",
+  "path":"ug/webcam.html",
+  "supportingFiles":
+    [
+      "CreateAWebcamObjectUsingDeviceNumberAsAnIndexExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.CreateAWebcamObjectUsingCameraNameExample",
+  "title":"Create a Webcam Object Using Camera Name",
+  "path":"ug/webcam.html",
+  "supportingFiles":
+    [
+      "CreateAWebcamObjectUsingCameraNameExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.DisplaySingleWebcamExample",
+  "title":"Display Single Webcam",
+  "path":"ug/webcamlist.html",
+  "supportingFiles":
+    [
+      "DisplaySingleWebcamExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.DisplayMultipleExternalWebcamsExample",
+  "title":"Display Multiple External Webcams",
+  "path":"ug/webcamlist.html",
+  "supportingFiles":
+    [
+      "DisplayMultipleExternalWebcamsExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.AcquireOneImageFrameFromWebcamExample",
+  "title":"Acquire One Image Frame from Webcam",
+  "path":"ug/webcam.snapshot.html",
+  "supportingFiles":
+    [
+      "AcquireOneImageFrameFromWebcamExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.PreviewWebcamImageExample",
+  "title":"Preview Webcam Live Video Stream",
+  "path":"ug/webcam.preview.html",
+  "supportingFiles":
+    [
+      "PreviewWebcamImageExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.PreviewWebcamImageWithCustomWindowExample",
+  "title":"Preview Webcam Live Video Stream with Custom Window",
+  "path":"ug/webcam.preview.html",
+  "supportingFiles":
+    [
+      "PreviewWebcamImageWithCustomWindowExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.LoggingVideoToDiskExample",
+  "title":"Logging Video to Disk",
+  "path":"ug/logging-video-to-disk.html",
+  "supportingFiles":
+    [
+      "LoggingVideoToDiskExample.mlx"
+    ]
+  },
+  {
+  "id":"usbwebcams.DetectAndPlotWaterLevelChangeUSBWebcamLiveEditorTaskExample",
+  "title":"Detect and Plot Water Level Change with USB Webcam Live Editor Task",
+  "path":"ug/detect-plot-water-level-change-with-usb-webcam-live-editor-task.html",
+  "supportingFiles":
+    [
+      "DetectAndPlotWaterLevelChangeUSBWebcamLiveEditorTaskExample.mlx",
+      "DetectPlotWaterLevelChangeWithUSBWebcamLiveEditorTask.mlx",
+      "image01.png"
+    ]
+  },
+  {
+  "id":"usbwebcams.AcquiringASingleImageInALoopExample",
+  "title":"Acquiring a Single Image in a Loop",
+  "path":"ug/acquiring-a-single-image-in-a-loop.html",
+  "supportingFiles":
+    [
+      "AcquiringASingleImageInALoopExample.mlx"
+    ]
+  }
+]
