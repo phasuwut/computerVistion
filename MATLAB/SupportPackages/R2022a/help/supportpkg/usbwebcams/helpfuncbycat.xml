@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc version="2.0">
+<tocitem target="functionlistbycat.html">Functions
+<tocitem target="device-connection.html">Device Connection
+<tocitem target="ug/webcamlist.html">
+<name>webcamlist</name>
+<purpose>List of webcams connected to your system</purpose>
+</tocitem>
+</tocitem>
+<tocitem target="webcam-image-acquisition.html">Webcam Image Acquisition
+<tocitem target="ug/webcamlist.html">
+<name>webcamlist</name>
+<purpose>List of webcams connected to your system</purpose>
+</tocitem>
+<tocitem target="ug/webcam.html">
+<name>webcam</name>
+<purpose>Connection to a webcam</purpose>
+</tocitem>
+<tocitem target="ug/webcam.preview.html">
+<name>preview</name>
+<purpose>Preview live video data from webcam</purpose>
+</tocitem>
+<tocitem target="ug/webcam.snapshot.html">
+<name>snapshot</name>
+<purpose>Acquire single image frame from a webcam</purpose>
+</tocitem>
+<tocitem target="ug/webcam.closepreview.html">
+<name>closePreview</name>
+<purpose>Close webcam preview window</purpose>
+</tocitem>
+</tocitem>
+</tocitem>
+</toc>

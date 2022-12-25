@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Copyright 2017-2020 The MathWorks, Inc. -->
+
+<RTTPackageRepository>
+    <SupportPackage
+        name="GoogLeNet"
+        displayname="Deep Learning Toolbox Model for GoogLeNet Network"
+        fullname="Deep Learning Toolbox Model for GoogLeNet Network"
+        version="21.2.0"
+        basecode="GOOGLENET"
+        infotext="Deep Learning Toolbox Model for GoogLeNet Network"
+        platform="PCWIN,PCWIN64,GLNXA64,MACI64"
+        visible="1"
+        enable="1"
+        baseproduct="Deep Learning Toolbox"
+        url="http://www.mathworks.com"
+        downloadurl=""
+        licenseurl=""
+        supportcategory="software"
+        folder="googlenet">
+        <Path name="$(INSTALLDIR)/googlenet"></Path>
+    </SupportPackage>
+</RTTPackageRepository>

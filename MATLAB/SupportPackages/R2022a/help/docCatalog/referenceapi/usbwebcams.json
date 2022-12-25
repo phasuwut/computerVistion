@@ -1,0 +1,287 @@
+{ "schema" : "referenceapi_schema.json",
+  "schemaVersion" : "1.0",
+  "productName" : "MATLAB Support Package for USB Webcams",
+  "baseCode" : "USBWEBCAM",
+  "helpFolder" : "usbwebcams",
+  "helpLocation" : "supportpkg\/usbwebcams",
+  "refItems" : [
+
+    { "href" : "ug\/acquirewebcamimage.html",
+      "refentity" : 
+      [ 
+        { "type" : "liveeditortask",
+          "name" : "Acquire Webcam Image" } ],
+      "refpurpose" : "Acquire snapshot from webcam in the Live Editor",
+      "introduced" : "R2020b",
+      "description" : "The Acquire Webcam Image task enables you to interactively connect to a webcam, set properties based on the live video, and capture images.",
+      "seealso" : 
+      [ 
+        { "url" : "webcam.html",
+          "name" : "webcam" },
+        
+        { "url" : "webcam.snapshot.html",
+          "name" : "snapshot" },
+        
+        { "url" : "webcam.preview.html",
+          "name" : "preview" } ] },
+    { "href" : "ug\/webcam.closepreview.html",
+      "refentity" : 
+      [ 
+        { "type" : "function",
+          "name" : "closePreview",
+          "fcntype" : "instancemethod" },
+        
+        { "type" : "method",
+          "name" : "webcam.closePreview",
+          "fcntype" : "instancemethod" } ],
+      "refpurpose" : "Close webcam preview window",
+      "introduced" : "R2014a",
+      "description" : "This MATLAB function closes the webcam preview window for the webcam object cam.",
+      "syntaxgroup" : 
+      [ 
+        { "title" : "",
+          "syntax" : 
+          [ "closePreview(cam)" ] } ],
+      "inputs" : 
+      [ 
+        { "name" : "cam",
+          "purpose" : "webcam hardware connection",
+          "htmlid" : "mw_76989f9d-1d32-46dd-9afa-8a38c3a253e6",
+          "value" : 
+          [ "webcam object" ] } ],
+      "examples" : 
+      [ 
+        { "url" : "webcam.closepreview.html#buerj2g-4",
+          "open_command" : "openExample('usbwebcams\/CloseWebcamPreviewExample')",
+          "title" : "Close Webcam Preview" } ],
+      "seealso" : 
+      [ 
+        { "url" : "webcam.preview.html",
+          "name" : "preview" },
+        
+        { "url" : "webcam.snapshot.html",
+          "name" : "snapshot" },
+        
+        { "url" : "webcam.html",
+          "name" : "webcam" },
+        
+        { "url" : "webcamlist.html",
+          "name" : "webcamlist" } ] },
+    { "href" : "ug\/webcam.html",
+      "refentity" : 
+      [ 
+        { "type" : "object",
+          "name" : "webcam" },
+        
+        { "type" : "function",
+          "name" : "webcam",
+          "fcntype" : "constructor" } ],
+      "refpurpose" : "Connection to a webcam",
+      "introduced" : "R2014a",
+      "description" : "A webcam object represents a connection to a webcam.",
+      "syntaxgroup" : 
+      [ 
+        { "title" : "",
+          "syntax" : 
+          [ "cam = webcam",
+            "cam = webcam(devicenumber)",
+            "cam = webcam('cameraname')" ] } ],
+      "inputs" : 
+      [ 
+        { "name" : "devicenumber",
+          "purpose" : "Device number of your webcam",
+          "htmlid" : "mw_6c1d6bd6-1762-4a3f-b06f-f2f45bc29aec",
+          "value" : 
+          [ "numeric scalar" ] },
+        
+        { "name" : "cameraname",
+          "purpose" : "Name of your webcam",
+          "htmlid" : "mw_1fbf7c32-53ff-46ed-b0da-ecf53da2e451",
+          "value" : 
+          [ "character vector" ] } ],
+      "classpropertygroup" : 
+      [ 
+        { "classproperty" : 
+          [ 
+            { "name" : "Name",
+              "purpose" : "Name of your webcam",
+              "htmlid" : "mw_c68fdc2b-e5a8-485a-b883-4b46daeeadf5",
+              "value" : 
+              [ "character vector" ] },
+            
+            { "name" : "Resolution",
+              "purpose" : "Resolution of incoming video stream",
+              "htmlid" : "mw_2d1fb297-5396-4331-b77f-3e16657f9560",
+              "value" : 
+              [ "character vector" ] },
+            
+            { "name" : "AvailableResolutions",
+              "purpose" : "Resolutions available on your webcam",
+              "htmlid" : "mw_52bd7d81-a4c3-4185-a2f1-bf6dd6e29559",
+              "value" : 
+              [ "cell array of character vectors" ] },
+            
+            { "name" : "FrameRate",
+              "purpose" : "Frame rate of incoming video stream",
+              "htmlid" : "mw_7828b7cc-014f-4aee-be45-21c1092695c7",
+              "value" : 
+              [ "double" ] } ] } ],
+      "examples" : 
+      [ 
+        { "url" : "webcam.html#buerllq-5",
+          "open_command" : "openExample('usbwebcams\/CreateAWebcamObjectUsingNoArgumentsExample')",
+          "title" : "Create a Webcam Object Using No Arguments" },
+        
+        { "url" : "webcam.html#buerllq-6",
+          "open_command" : "openExample('usbwebcams\/CreateAWebcamObjectUsingDeviceNumberAsAnIndexExample')",
+          "title" : "Create a Webcam Object Using Device Number as an Index" },
+        
+        { "url" : "webcam.html#buerllq-7",
+          "open_command" : "openExample('usbwebcams\/CreateAWebcamObjectUsingCameraNameExample')",
+          "title" : "Create a Webcam Object Using Camera Name" } ],
+      "seealso" : 
+      [ 
+        { "url" : "webcam.closepreview.html",
+          "name" : "closePreview" },
+        
+        { "url" : "webcam.preview.html",
+          "name" : "preview" },
+        
+        { "url" : "webcam.snapshot.html",
+          "name" : "snapshot" },
+        
+        { "url" : "webcamlist.html",
+          "name" : "webcamlist" } ] },
+    { "href" : "ug\/webcam.preview.html",
+      "refentity" : 
+      [ 
+        { "type" : "function",
+          "name" : "preview",
+          "fcntype" : "instancemethod" },
+        
+        { "type" : "method",
+          "name" : "webcam.preview",
+          "fcntype" : "instancemethod" } ],
+      "refpurpose" : "Preview live video data from webcam",
+      "introduced" : "R2014a",
+      "description" : "This MATLAB function creates a preview window that displays live video data for the webcam object cam.",
+      "syntaxgroup" : 
+      [ 
+        { "title" : "",
+          "syntax" : 
+          [ "preview(cam)",
+            "preview(cam,im)" ] } ],
+      "inputs" : 
+      [ 
+        { "name" : "cam",
+          "purpose" : "webcam hardware connection",
+          "htmlid" : "mw_f209fd12-13ba-4db4-b684-7bf22aa0eb14",
+          "value" : 
+          [ "webcam object" ] },
+        
+        { "name" : "im",
+          "purpose" : "webcam image properties",
+          "htmlid" : "mw_1feff778-117d-495a-bc93-0d457163f691",
+          "value" : 
+          [ "image object" ] } ],
+      "examples" : 
+      [ 
+        { "url" : "webcam.preview.html#buerkej-4",
+          "open_command" : "openExample('usbwebcams\/PreviewWebcamImageExample')",
+          "title" : "Preview Webcam Live Video Stream" },
+        
+        { "url" : "webcam.preview.html#mw_2f34fba1-533e-4f20-8180-cb2e5fa46fa3",
+          "open_command" : "openExample('usbwebcams\/PreviewWebcamImageWithCustomWindowExample')",
+          "title" : "Preview Webcam Live Video Stream with Custom Window" } ],
+      "seealso" : 
+      [ 
+        { "url" : "webcam.closepreview.html",
+          "name" : "closePreview" },
+        
+        { "url" : "webcam.snapshot.html",
+          "name" : "snapshot" },
+        
+        { "url" : "webcam.html",
+          "name" : "webcam" },
+        
+        { "url" : "webcamlist.html",
+          "name" : "webcamlist" } ] },
+    { "href" : "ug\/webcam.snapshot.html",
+      "refentity" : 
+      [ 
+        { "type" : "function",
+          "name" : "snapshot",
+          "fcntype" : "instancemethod" },
+        
+        { "type" : "method",
+          "name" : "webcam.snapshot",
+          "fcntype" : "instancemethod" } ],
+      "refpurpose" : "Acquire single image frame from a webcam",
+      "introduced" : "R2014a",
+      "description" : "This MATLAB function acquires a single image from the webcam object cam and assigns it to the variable img.",
+      "syntaxgroup" : 
+      [ 
+        { "title" : "",
+          "syntax" : 
+          [ "img = snapshot(cam);" ] } ],
+      "inputs" : 
+      [ 
+        { "name" : "cam",
+          "purpose" : "webcam hardware connection",
+          "htmlid" : "mw_cbd7a045-fc6a-4370-aa76-37c070104d27",
+          "value" : 
+          [ "webcam object" ] } ],
+      "examples" : 
+      [ 
+        { "url" : "webcam.snapshot.html#buerk8_-4",
+          "open_command" : "openExample('usbwebcams\/AcquireOneImageFrameFromWebcamExample')",
+          "title" : "Acquire One Image Frame from Webcam" } ],
+      "seealso" : 
+      [ 
+        { "url" : "webcam.closepreview.html",
+          "name" : "closePreview" },
+        
+        { "url" : "webcam.preview.html",
+          "name" : "preview" },
+        
+        { "url" : "webcam.html",
+          "name" : "webcam" },
+        
+        { "url" : "webcamlist.html",
+          "name" : "webcamlist" } ] },
+    { "href" : "ug\/webcamlist.html",
+      "refentity" : 
+      [ 
+        { "type" : "function",
+          "name" : "webcamlist",
+          "fcntype" : "simple" } ],
+      "refpurpose" : "List of webcams connected to your system",
+      "introduced" : "R2014a",
+      "description" : "This MATLAB function returns a list of available UVC-compliant webcams connected to your system.",
+      "syntaxgroup" : 
+      [ 
+        { "title" : "",
+          "syntax" : 
+          [ "camlist = webcamlist" ] } ],
+      "outputs" : 
+      [ 
+        { "name" : "camlist",
+          "purpose" : "List of cameras",
+          "htmlid" : "mw_84d15dfa-ee8f-4106-a99e-f19d172a66be",
+          "value" : 
+          [ "Cell array" ] } ],
+      "examples" : 
+      [ 
+        { "url" : "webcamlist.html#buerlx3-4",
+          "open_command" : "openExample('usbwebcams\/DisplaySingleWebcamExample')",
+          "title" : "Display Single Webcam" },
+        
+        { "url" : "webcamlist.html#buerlx3-6",
+          "open_command" : "openExample('usbwebcams\/DisplayMultipleExternalWebcamsExample')",
+          "title" : "Display Multiple External Webcams" } ],
+      "seealso" : 
+      [ 
+        { "url" : "webcam.html",
+          "name" : "webcam" } ] }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+	"webcam":
+	{
+		"inputs":
+		[
+		]
+	},
+	"webcam":
+	{
+		"inputs":
+		[
+			{"name":"cameraname", "kind":"required", "type":["char", "choices=webcamlist"], "purpose":"Name of your webcam"}
+		]
+	},
+	"webcam":
+	{
+		"inputs":
+		[
+			{"name":"devicenumber", "kind":"required", "type":["numeric", "scalar", "choices=[1:length(webcamlist)]"], "purpose":"Device number of your webcam"}
+		]
+	}
+}
